@@ -1,0 +1,7 @@
+# CMD ./bin/kafka-console-consumer.sh --bootstrap-server server:9092 --topic test --from-beginningFROM openjdk:8-jre-slim
+
+WORKDIR /kafka-server
+
+CMD  [ "./bin/kafka-console-consumer.sh","--bootstrap-server","server:9092","--from-beginning","--topic" ]
+
+#CMD ./bin/consumer-consumer.sh --bootstrap-server server:9092 --topic test
