@@ -8,4 +8,4 @@ Run producer in another terminal- docker-compose run producer
 
 In producer terminal type message- HELLO
 
-In comsumer terminal you will see messages- HELLO
+In consumer terminal you will see message- HELLO
